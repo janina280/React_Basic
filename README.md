@@ -39,17 +39,15 @@ Acest repository conține un proiect de bază realizat cu **React**, destinat î
 5. Deschide browser-ul și accesează http://localhost:3000.
    
 
-##Configurarea bazei de date
+## Configurarea bazei de date
 
 
 1. Asigură-te că ai instalat json-server
    ```bash
    npm install -g json-server
-   
 
 2. Rulează serverul JSON cu comanda:
     ```bash
     npx json-server --watch data/db.json --port 8000
 
-    
 3. Serverul va fi disponibil la http://localhost:8000.
